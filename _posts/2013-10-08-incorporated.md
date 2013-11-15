@@ -1,0 +1,15 @@
+---
+layout: post
+
+title: Welcome to our new blog!
+subtitle: "Opening the press."
+cover_image: blog-cover.jpg
+
+author:
+  name: Darren Royle
+  twitter: royletron
+  bio: Platform Manager
+  image: dr.png
+---
+
+**Welcome** to the new home of digital for Oxford Unversity Press. This blog, and subseqent repositories, are all maintained by the development staff within OUP. Although not all of our work can be open sourced, we will be working to publish more as we grow our hosted platforms around the world.
