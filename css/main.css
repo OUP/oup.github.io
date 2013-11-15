@@ -2054,11 +2054,11 @@ a {
   max-width: 100%;
   margin-top: 0;
   position: relative;
-  max-height: 460px;
+  max-height: 320px;
   overflow: hidden;
   background: #eee; }
   .article-cover > div, .blog-cover > div {
-    max-height: 480px;
+    max-height: 320px;
     line-height: 0; }
   .article-cover .image, .blog-cover .image {
     width: 100%;
