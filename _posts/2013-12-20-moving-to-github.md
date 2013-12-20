@@ -25,7 +25,7 @@ One massive concept to get to grips with straight away is that there are two ter
 **GitHub** is a **Git** hosting service that will act as the *remote* version of our various repositories. On top of this it also provides lots of useful functionality around those repositories, including:
 
 * Issue/ticket management
-* Repositorie/project wiki's
+* Repository/project wiki's
 * A web front end to repositories, so you can see the files via your browser
 * Simple user management
 
@@ -41,4 +41,4 @@ One massive concept to get to grips with straight away is that there are two ter
 
 **Git** and **GitHub** really benefit the programmer mostly, but it also provides an interface between what the programmer is doing, and what the various stakeholders expect. The use of **GitHub** issue tracking will provide a simple way to raise queries with functionality, and even with roadmapping new functionality going forward. The wiki will provide us with a platform to communicate what a project is actually about, and give really detailled information where required. Once projects are ticking along on **GitHub** we are also able to use that as a publishing route to the projects target, for example pusing content from the repository to a staging environment for testing, or deploying an updated platform to the production server. Finally **Git**, which this is all built on, is an excellent piece of software for source control management. Not only providing piece of mind, but also providing functions for developing new functionality without effecting the main project, and subsequently merging those changes back into the main project when signed off.
 
-**All in all** this will put the whole press in a much stronger and light footed position, allowing us to provide access to projects to the right people very simply, and ensuring that our code is kept safe.
+**All in all** this will put the whole team in a much stronger and light footed position, allowing us to provide access to projects to the right people very simply, and ensuring that our code is kept safe.
