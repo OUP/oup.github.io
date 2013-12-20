@@ -5,6 +5,8 @@ title: Moving to Github
 subtitle: "Tooling up and moving on."
 cover_image: dino-run-se-9688.png
 
+excerpt: "Over Christmas we will be moving all projects over to GitHub.com so I thought it would be a good idea to give you a basic introduction to the platform, and what it will mean to your current working processes."
+
 author:
   name: Darren Royle
   twitter: royletron
