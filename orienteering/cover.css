@@ -31,9 +31,7 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -42,6 +40,7 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -158,4 +157,79 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+
+}.bs-sidebar.affix {
+    position: static;
+}
+@media (min-width:768px) {
+    .bs-sidebar {
+    padding-left: 20px;
+}
+}.bs-sidenav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.bs-sidebar .nav>li>a {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #E1DBBF;
+    padding: 4px 20px;
+}
+.bs-sidebar .nav>li>a:hover, .bs-sidebar .nav>li>a:focus {
+    padding-left: 19px;
+    color: #EEE8C6;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #EEE8C6;
+}
+.bs-sidebar .nav>.active>a, .bs-sidebar .nav>.active:hover>a, .bs-sidebar .nav>.active:focus>a {
+    padding-left: 18px;
+    font-weight: 700;
+    color: #A1B2C3;
+    background-color: transparent;
+    border-left: 2px solid #A1B2C3;
+}
+.bs-sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px;
+}
+.bs-sidebar .nav .nav>li>a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.bs-sidebar .nav .nav>li>a:hover, .bs-sidebar .nav .nav>li>a:focus {
+    padding-left: 29px;
+}
+.bs-sidebar .nav .nav>.active>a, .bs-sidebar .nav .nav>.active:hover>a, .bs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+    padding-left: 28px;
+}
+@media (min-width:992px) {
+    .bs-sidebar .nav>.active>ul {
+    display: block;
+}
+.bs-sidebar.affix, .bs-sidebar.affix-bottom {
+    width: 213px;
+}
+.bs-sidebar.affix {
+    position: fixed;
+    top: 20px;
+}
+.bs-sidebar.affix-bottom {
+    position: absolute;
+}
+.bs-sidebar.affix-bottom .bs-sidenav, .bs-sidebar.affix .bs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}@media (min-width:1200px) {
+    .bs-sidebar.affix-bottom, .bs-sidebar.affix {
+    width: 263px;
 }
